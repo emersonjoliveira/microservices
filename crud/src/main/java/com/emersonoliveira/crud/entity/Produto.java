@@ -22,7 +22,7 @@ import org.modelmapper.ModelMapper;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-@Table(name = "produto")
+@Table
 @Entity
 public class Produto  implements Serializable {
 
